@@ -1,0 +1,1 @@
+module.exports = ['time-to-first-byte', 'first-contentful-paint', 'interactive'];

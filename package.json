@@ -1,0 +1,20 @@
+{
+    "name": "automated-lighthouse-audits",
+    "version": "1.0.0",
+    "description": "An example for scripting a Lighthouse Audit step that you can run manually or during your build process",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest"
+    },
+    "author": "Cloud Quinn",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.648.0",
+        "chrome-launcher": "^0.13.0",
+        "lighthouse": "^5.6.0"
+    },
+    "devDependencies": {
+        "jest": "^25.1.0"
+    }
+}
